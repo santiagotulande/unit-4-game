@@ -33,7 +33,7 @@ function reset(){
       $('#totalScore').text(playerTotal);
       } 
 // Display wins
-function woohoo(){
+function rock(){
 alert("Congrats! You won!");
   wins++; 
   $('#wins').text(wins);
@@ -53,7 +53,7 @@ alert ("Sorry! You lose!");
     $('#totalScore').text(playerTotal); 
           //Win & lose conditions
         if (playerTotal == Random){
-          woohoo();
+          rock();
         }
         else if ( playerTotal > Random){
           loser();
@@ -64,7 +64,7 @@ alert ("Sorry! You lose!");
     console.log("New playerTotal= " + playerTotal);
     $('#totalScore').text(playerTotal); 
         if (playerTotal == Random){
-          woohoo();
+          rock();
         }
         else if ( playerTotal > Random){
           loser();
@@ -76,7 +76,7 @@ alert ("Sorry! You lose!");
     $('#totalScore').text(playerTotal);
 
           if (playerTotal == Random){
-          woohoo();
+          rock();
         }
         else if ( playerTotal > Random){
           loser();
@@ -88,7 +88,7 @@ alert ("Sorry! You lose!");
     $('#totalScore').text(playerTotal); 
       
           if (playerTotal == Random){
-          woohoo();
+          rock();
         }
         else if ( playerTotal > Random){
           loser();
